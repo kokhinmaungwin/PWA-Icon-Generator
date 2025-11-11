@@ -3,8 +3,10 @@ let deferredPrompt;
 
 document.getElementById("genBtn").onclick = async () => {
   const file = document.getElementById("upload").files[0];
-  const sizeSelect = document.getElementById("sizeSelect");
-  const selected = [...sizeSelect.selectedOptions].map(o => +o.value);
+  function getSelectedSizes() {
+  const select = document.getElementById("sizeSelect");
+  return [...select.selectedOptions].map(o => parseInt(o.value));
+}
   
   if(!file) return alert("Upload PNG first!");
 
