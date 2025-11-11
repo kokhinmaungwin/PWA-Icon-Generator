@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PWA Icon Generator</title>
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0f62fe" />
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  padding: 15px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.1);
+}
+h2 { margin-top: 0; }
+button, select, input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px 0;
+  width: 100%;
+  font-size: 15px;
+}
+button {
+  background: #0f62fe;
+  color: white;
+  cursor: pointer;
+}
+button:active {
+  background: #0b4dcc;
+}
+.preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.preview img {
+  border:2px solid #ddd;
+  border-radius: 10px;
+}
+#installBtn {
+  background:#10b981;
+  display:none;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>PWA Icon Generator</h2>
+
+  <input type="file" id="upload" accept="image/*">
+
+  <label><b>Select Sizes:</b></label>
+  <select id="sizeSelect" multiple size="8">
+    <option value="48">48×48</option>
+    <option value="72">72×72</option>
+    <option value="96">96×96</option>
+    <option value="144">144×144</option>
+    <option value="152">152×152</option>
+    <option value="192" selected>192×192</option>
+    <option value="384">384×384</option>
+    <option value="512" selected>512×512</option>
+  </select>
+
+  <button id="genBtn">Generate Icons</button>
+  <button id="zipBtn">Download ZIP</button>
+  <button id="installBtn">Install App</button>
+
+  <div class="preview" id="preview"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jszip"></script>
+<script src="script.js"></script>
+</body>
+</html>
