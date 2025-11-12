@@ -107,6 +107,7 @@ When installed, you can generate icons offline.
 ## 📄 Manifest Example
 
 Add generated icons inside your manifest.json:
+```html
 
 {
   "name": "My PWA App",
