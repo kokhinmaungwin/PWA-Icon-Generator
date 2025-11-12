@@ -8,28 +8,29 @@ You can preview and download all icons as a ZIP file instantly.
 
 ## 🚀 Features
 
-✅ Upload PNG & auto-generate icons
-✅ Preview each generated icon
-✅ Select sizes you want
-✅ Download all icons in one .zip
-✅ Supports PWA install (Add-To-Home-Screen) prompt
-✅ 100% Client-side, No upload to server
-✅ Works on mobile & desktop
+✅ Upload PNG & auto-generate icons |
+✅ Preview each generated icon |
+✅ Select sizes you want |
+✅ Download all icons in one .zip |
+✅ Supports PWA install (Add-To-Home-Screen) prompt |
+✅ 100% Client-side, No upload to server |
+✅ Works on mobile & desktop |
 
 
 ---
 
 ## 🖼️ Supported Icon Sizes
 
-Size	Purpose
+| Size	| Purpose |
+|-------|---------|
 
-72×72	Low-density devices
-96×96	Standard display
-128×128	General icon
-192×192	PWA Install icon (Required ✅)
-256×256	High-res icon
-384×384	Play Store suggested
-512×512	Primary PWA icon (Required ✅)
+72×72	| Low-density devices
+96×96	| Standard display
+128×128	| General icon
+192×192	| PWA Install icon (Required ✅)
+256×256	| High-res icon
+384×384	| Play Store suggested
+512×512	| Primary PWA icon (Required ✅)
 
 
 
