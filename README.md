@@ -7,15 +7,14 @@ You can preview and download all icons as a ZIP file instantly.
 ---
 
 ## 🚀 Features
-| ----------------------------------------------------|
-| ✅ Upload PNG & auto-generate icons                 |
-| ✅ Preview each generated icon                      |
-| ✅ Select sizes you want                            |
-| ✅ Download all icons in one .zip                   |
-| ✅ Supports PWA install (Add-To-Home-Screen) prompt |
-| ✅ 100% Client-side, No upload to server            |
-| ✅ Works on mobile & desktop                        |
 
+- ✅ Upload PNG & auto-generate icons
+- ✅ Preview each generated icon
+- ✅ Select sizes you want
+- ✅ Download all icons in one .zip
+- ✅ Supports PWA install prompt
+- ✅ 100% Client-side (no server upload)
+- ✅ Works on mobile & desktop
 
 ---
 
