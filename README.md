@@ -56,13 +56,13 @@ You can preview and download all icons as a ZIP file instantly.
 
 ## 📂 Output Files
 
-icon-72.png
-icon-96.png
-icon-128.png
-icon-192.png
-icon-256.png
-icon-384.png
-icon-512.png
+- icon-72.png
+- icon-96.png
+- icon-128.png
+- icon-192.png
+- icon-256.png
+- icon-384.png
+- icon-512.png
 
 
 ---
@@ -92,8 +92,7 @@ When installed, you can generate icons offline.
 ## 📄 Manifest Example
 
 Add generated icons inside your manifest.json:
-```json
-
+```
 {
   "name": "My PWA App",
   "short_name": "PWA App",
