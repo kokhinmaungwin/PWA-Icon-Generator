@@ -7,31 +7,18 @@ You can preview and download all icons as a ZIP file instantly.
 ---
 
 ## 🚀 Features
+| ----------------------------------------------------|
+| ✅ Upload PNG & auto-generate icons                 |
+| ✅ Preview each generated icon                      |
+| ✅ Select sizes you want                            |
+| ✅ Download all icons in one .zip                   |
+| ✅ Supports PWA install (Add-To-Home-Screen) prompt |
+| ✅ 100% Client-side, No upload to server            |
+| ✅ Works on mobile & desktop                        |
 
-✅ Upload PNG & auto-generate icons |
-✅ Preview each generated icon |
-✅ Select sizes you want |
-✅ Download all icons in one .zip |
-✅ Supports PWA install (Add-To-Home-Screen) prompt |
-✅ 100% Client-side, No upload to server |
-✅ Works on mobile & desktop |
-
-
----
-
-## ✨ Features
-
-| Feature | Description |
-|--------|-------------|
-✅ Google Login | Secure Firebase Authentication  
-✅ Admin Dashboard | Manage allowed users  
-✅ Firestore Permission Check | Control who can download app files  
-✅ Live User List | Real-time Firestore updates  
-✅ Multi-File Support | Download files based on app ID  
-✅ Auto Redirect Download | Start download if permitted  
-✅ Client-side JavaScript | Modern Firebase v9 Modular SDK  
 
 ---
+
 
 ## 🖼️ Supported Icon Sizes
 
@@ -121,7 +108,7 @@ Add generated icons inside your manifest.json:
     {"src":"icon-512.png","sizes":"512x512","type":"image/png"}
   ]
 }
-
+```
 
 ---
 
