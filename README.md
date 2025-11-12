@@ -21,15 +21,16 @@ You can preview and download all icons as a ZIP file instantly.
 
 ## 🖼️ Supported Icon Sizes
 
-| Size      | Purpose                         |
-|-----------|---------------------------------|
-| 72×72     | Low-density devices             |
-| 96×96     | Standard display                |
-| 128×128   | General icon                    |
-| 192×192   | PWA Install icon (Required ✅)  |
-| 256×256   | High-res icon                   |
-| 384×384   | Play Store suggested            |
-| 512×512   | Primary PWA icon (Required ✅)  |
+| Size      | Purpose                            |
+|-----------|------------------------------------|
+| 48×48     | Optional legacy fallback           |
+| 72×72     | Low-density devices(Older tablets) |            |
+| 96×96     | Standard display                   |
+| 128×128   | General icon                       |
+| 192×192   | PWA Install icon (Required ✅)     |
+| 256×256   | High-res icon                      |
+| 384×384   | Play Store suggested               |
+| 512×512   | Primary PWA icon (Required ✅)     |
 
 ---
 
