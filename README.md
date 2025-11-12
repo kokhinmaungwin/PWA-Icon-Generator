@@ -19,6 +19,20 @@ You can preview and download all icons as a ZIP file instantly.
 
 ---
 
+## ✨ Features
+
+| Feature | Description |
+|--------|-------------|
+✅ Google Login | Secure Firebase Authentication  
+✅ Admin Dashboard | Manage allowed users  
+✅ Firestore Permission Check | Control who can download app files  
+✅ Live User List | Real-time Firestore updates  
+✅ Multi-File Support | Download files based on app ID  
+✅ Auto Redirect Download | Start download if permitted  
+✅ Client-side JavaScript | Modern Firebase v9 Modular SDK  
+
+---
+
 ## 🖼️ Supported Icon Sizes
 
 | Size	| Purpose |
