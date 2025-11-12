@@ -57,6 +57,7 @@ You can preview and download all icons as a ZIP file instantly.
 
 ## 📂 Output Files
 
+- icon-48.png
 - icon-72.png
 - icon-96.png
 - icon-128.png
